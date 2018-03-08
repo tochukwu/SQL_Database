@@ -1,0 +1,2 @@
+select ID, RoomType, Capacity from tblRoom
+where ID LIKE 'C%'

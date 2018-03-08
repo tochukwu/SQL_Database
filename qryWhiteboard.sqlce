@@ -1,0 +1,7 @@
+SELECT tblActivity.ID, tblActivity.Name, tblActivity.Type, tblRoomEquipment.RoomID, tblEquipment.Description
+FROM tblActivity, tblRoomEquipment, tblEquipment
+Where tblActivity.RoomID=tblRoomEquipment.RoomID
+and tblRoomEquipment.EquipmentType=tblEquipment.Type
+And tblEquipment.Description = 'Whiteboard'
+ORDER BY tblActivity.ID
+

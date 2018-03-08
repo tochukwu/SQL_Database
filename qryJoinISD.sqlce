@@ -1,0 +1,6 @@
+SELECT tblRoom.Capacity, tblRoom.ID, tblRoomType.Responsibility, tblActivity.Day, tblActivity.Time
+FROM tblRoom, tblRoomType, tblActivity
+Where tblRoom.RoomType=tblRoomType.Type
+and tblRoom.ID=tblActivity.RoomID
+And tblRoomType.Responsibility = 'ISD'
+ORDER BY tblRoom.ID

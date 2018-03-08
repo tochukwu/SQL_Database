@@ -1,0 +1,5 @@
+ALTER TABLE tblRoomEquipment
+ADD FOREIGN KEY (EquipmentType)
+REFERENCES tblEquipment(Type)
+
+

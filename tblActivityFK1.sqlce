@@ -1,0 +1,4 @@
+ALTER TABLE tblActivity
+ADD FOREIGN KEY (ModuleID)
+REFERENCES tblModule(ID)
+

@@ -1,0 +1,4 @@
+select ID, RoomType, Capacity from tblRoom
+where RoomType = 'CO'
+and Capacity > 50
+

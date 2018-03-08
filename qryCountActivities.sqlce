@@ -1,0 +1,4 @@
+SELECT tblActivity.ModuleID,
+count(tblActivity.ModuleID)as Activities 
+FROM tblActivity
+GROUP BY tblActivity.ModuleID

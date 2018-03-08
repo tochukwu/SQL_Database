@@ -1,0 +1,6 @@
+SELECT tblActivity.RoomID, tblActivity.Day, tblActivity.Time, tblActivity.ModuleID, tblModule.Title
+FROM tblActivity, tblModule
+Where tblActivity.ModuleID=tblModule.ID
+And tblModule.Title = 'MULTIMEDIA 1'
+ORDER BY tblActivity.RoomID
+

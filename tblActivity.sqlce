@@ -1,0 +1,9 @@
+create table tblActivity(
+ID nvarchar(12)primary key,
+Name nvarchar(12),
+Type nvarchar(3),
+ModuleID nvarchar(6),
+Day numeric(1),
+Time numeric(2),
+RoomID nvarchar(8)
+)

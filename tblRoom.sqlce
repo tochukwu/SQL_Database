@@ -1,0 +1,5 @@
+create table tblRoom(
+ID nvarchar(8) primary key,
+RoomType nvarchar(2),
+Capacity nvarchar(3)
+)

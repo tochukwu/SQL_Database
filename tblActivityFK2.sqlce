@@ -1,0 +1,3 @@
+ALTER TABLE tblActivity
+ADD FOREIGN KEY (RoomID)
+REFERENCES tblRoom(ID)

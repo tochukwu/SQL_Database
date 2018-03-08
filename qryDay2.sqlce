@@ -1,0 +1,4 @@
+select ID, Name, Type, ModuleID, Day, Time, RoomID from tblActivity
+where Day = 2
+
+

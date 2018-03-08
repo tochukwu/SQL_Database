@@ -1,0 +1,4 @@
+create table tblRoomEquipment(
+RoomID nvarchar(8),
+EquipmentType nvarchar(1)
+)

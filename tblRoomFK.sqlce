@@ -1,0 +1,3 @@
+ALTER TABLE tblRoom
+ADD FOREIGN KEY (RoomType)
+REFERENCES tblRoomType(Type)

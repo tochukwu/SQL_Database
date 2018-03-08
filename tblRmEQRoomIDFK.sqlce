@@ -1,0 +1,4 @@
+ALTER TABLE tblRoomEquipment
+ADD FOREIGN KEY (RoomID)
+REFERENCES tblRoom(ID)
+

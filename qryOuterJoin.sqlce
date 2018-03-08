@@ -1,0 +1,6 @@
+SELECT tblModule.ID, tblModule.Title
+FROM   tblModule
+Left OUTER JOIN tblActivity
+ON tblModule.ID=tblActivity.ModuleID
+where tblActivity.ModuleID is null
+order by tblModule.ID

@@ -1,0 +1,5 @@
+SELECT tblRoom.ID, tblRoom.RoomType, tblRoom.Capacity, tblActivity.Name, tblActivity.Day, tblActivity.Time
+FROM tblRoom, tblActivity
+Where tblRoom.ID=tblActivity.RoomID
+and tblActivity.Day NOT LIKE 1
+Order by tblRoom.ID

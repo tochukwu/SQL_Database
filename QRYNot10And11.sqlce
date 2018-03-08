@@ -1,0 +1,7 @@
+SELECT tblRoom.ID, tblRoomType.Responsibility,tblActivity.Name, tblActivity.ModuleID, tblActivity.Day, tblActivity.Time
+FROM tblRoom, tblRoomType, tblActivity
+Where tblRoom.RoomType=tblRoomType.Type
+and tblRoom.ID=tblActivity.RoomID
+And tblActivity.Time NOT BETWEEN 10 and 11
+ORDER BY tblRoom.ID
+

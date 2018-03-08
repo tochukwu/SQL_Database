@@ -1,0 +1,2 @@
+select ID, Name, Type, ModuleID, Day, Time, RoomID from tblActivity
+where Day between 2 and 3
